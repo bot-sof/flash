@@ -1,0 +1,34 @@
+{
+	"name": "𝐒𝐎𝐔𝐑𝐂𝐄 𝐅𝐋𝐀𝐒𝐇",
+	"description": "بوت استخراج جلسات فلاش",
+	"logo": "https://telegra.ph/file/738661f85fe3e4fd54d20.jpg",
+	"keywords": [
+		"telegram",
+		"bot",
+		"python",
+		"telethon"
+	],
+	"repository": "https://github.com/ELPOP2410/tgm",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": "6820178960:AAE12UWT_S6iSk1pHFeBMebK21PQWQo5RJ0"
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": "be3dc2d90973c1caebbdfd68d82792e6"
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": "21215289"
+	   }
+	},
+	"buildpacks": [
+		{
+			"url": "heroku/python"
+		}
+	]
+}
+
+
+
